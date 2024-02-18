@@ -1,4 +1,4 @@
-n,m = list(map(int ,input().split()))
+n,m = map(int ,input().split())
 
 
 years = 0
@@ -8,3 +8,5 @@ while n <= m:
     m *= 2
     years+=1
 print(years)    
+
+
